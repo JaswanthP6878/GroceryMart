@@ -11,6 +11,7 @@ import { HomeComponent } from './home/home.component';
 import { ItemdetailsComponent } from './itemdetails/itemdetails.component';
 import { UpdateprofileComponent } from './updateprofile/updateprofile.component';
 import { OrderlistComponent } from './orderlist/orderlist.component';
+import { CartButtonComponent } from './cart-button/cart-button.component';
 
 @NgModule({
   declarations: [
@@ -22,7 +23,8 @@ import { OrderlistComponent } from './orderlist/orderlist.component';
     HomeComponent,
     ItemdetailsComponent,
     UpdateprofileComponent,
-    OrderlistComponent
+    OrderlistComponent,
+    CartButtonComponent,
   ],
   imports: [
     BrowserModule,

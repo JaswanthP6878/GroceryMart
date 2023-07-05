@@ -1,0 +1,9 @@
+<div *ngIf="count<=0">
+    <button (click)="add()" class = "btn btn-outline-primary">Add to cart</button>
+</div>
+<div *ngIf="count>0" class="d-flex align-items-center">
+    <button (click)="add()" class = "btn btn-outline-primary mx-2">+</button>
+    {{count}}
+    <button (click)="subract()" class ="btn btn-outline-primary mx-2">-</button>
+</div>
+
